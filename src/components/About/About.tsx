@@ -10,7 +10,9 @@ import boostrapIcon from '../../assets/bootstrap-icon.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
 import nextjs from '../../assets/nextjs.svg';
 import flutter from '../../assets/flutter.svg';
-
+import tensorflow from '../../assets/tensorflow-icon.svg';
+import pytorch from '../../assets/pytorch-icon.svg';
+import mongoDB from '../../assets/mongodb.svg';
 export function About() {
   return (
     <Container id='about'>
@@ -99,11 +101,26 @@ export function About() {
               <img src={jsIcon} alt='JavaScript' />
             </ScrollAnimation>
           </div>
+          <div className='hability'>
+            <ScrollAnimation animateIn='fadeInUp' delay={0.19 * 1000}>
+              <img src={mongoDB} alt='MongoDB' />
+            </ScrollAnimation>
+          </div>
+          <div className='hability'>
+            <ScrollAnimation animateIn='fadeInUp' delay={0.19 * 1000}>
+              <img src={tensorflow} alt='Tensorflow' />
+            </ScrollAnimation>
+          </div>
+          <div className='hability'>
+            <ScrollAnimation animateIn='fadeInUp' delay={0.19 * 1000}>
+              <img src={pytorch} alt='PyTorch' />
+            </ScrollAnimation>
+          </div>
         </div>
       </div>
       <div className='about-image'>
         <ScrollAnimation animateIn='fadeInRight' delay={0.2 * 1000}>
-          <img src={MinhNguyen} alt='Vinayak Singh' />
+          <img src={MinhNguyen} alt='Minh Nguyen' />
         </ScrollAnimation>
       </div>
     </Container>
