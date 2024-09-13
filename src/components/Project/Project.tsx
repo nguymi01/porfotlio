@@ -1,54 +1,111 @@
-import { Container } from "./styles";
-import githubIcon from "../../assets/github.svg"
-// import DownloadApp from '../../assets/download.png'
-import externalLink from "../../assets/external-link.svg"
-import ScrollAnimation from "react-animate-on-scroll";
-
+import { Container } from './styles';
+import githubIcon from '../../assets/github.svg';
+import externalLink from '../../assets/external-link.svg';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export function Project() {
   return (
-    <Container id="project">
+    <Container id='project'>
       <h2>My Projects</h2>
-      <div className="projects">
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+      <div className='projects'>
+        <ScrollAnimation animateIn='flipInX'>
+          <div className='project'>
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Serverless-Voting-Application" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://vote.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a> </div>
-            </header>
-            <div className="body">
-              <h3>Personalized Training Platform</h3>
-              <p> Forged a Next.js application integrating GPT API to offer personalized training plans, adapting to user profiles and goals for an enhanced fitness experience. </p>
-            </div>
-            <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>NextJS</li> </ul> </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/AI-Chatbot-Assistant" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /> </a>
-                <a href="https://ai-chatbot-t8fn.onrender.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" /></a>
+              <svg
+                width='50'
+                xmlns='http://www.w3.org/2000/svg'
+                role='img'
+                viewBox='0 0 24 24'
+                fill='none'
+                stroke='#23ce6b'
+                strokeWidth='1'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+              >
+                {' '}
+                <title>Folder</title>{' '}
+                <path d='M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z'></path>{' '}
+              </svg>
+              <div className='project-links'>
+                <a
+                  href='https://github.com/CodeVinayak/Serverless-Voting-Application'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={githubIcon} alt='Visit site' />
+                </a>
+                <a
+                  href='https://vote.vinayaksingh.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={externalLink} alt='Visit site' />
+                </a>{' '}
               </div>
             </header>
-            <div className="body">
-              <h3>Springfest Ticketing</h3>
+            <div className='body'>
+              <h3>Personalized Training Platform</h3>
               <p>
-                Built a dynamic user interface for a college event ticketing website using JavaScript and MySQL, enabling seamless access to events for a diverse community of over 6,000 students.
+                {' '}
+                Forged a Next.js application integrating GPT API to offer
+                personalized training plans, adapting to user profiles and goals
+                for an enhanced fitness experience.{' '}
               </p>
             </div>
             <footer>
-              <ul className="tech-list">
+              {' '}
+              <ul className='tech-list'>
+                {' '}
+                <li>AWS Lambda</li> <li>API Gateway</li> <li>NextJS</li>{' '}
+              </ul>{' '}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn='flipInX'>
+          <div className='project'>
+            <header>
+              <svg
+                width='50'
+                xmlns='http://www.w3.org/2000/svg'
+                role='img'
+                viewBox='0 0 24 24'
+                fill='none'
+                stroke='#23ce6b '
+                strokeWidth='1'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+              >
+                <title>Folder</title>{' '}
+                <path d='M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z'></path>{' '}
+              </svg>
+              <div className='project-links'>
+                <a
+                  href='https://github.com/CodeVinayak/AI-Chatbot-Assistant'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={githubIcon} alt='Visit site' />{' '}
+                </a>
+                <a
+                  href='https://ai-chatbot-t8fn.onrender.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={externalLink} alt='Visit site' />
+                </a>
+              </div>
+            </header>
+            <div className='body'>
+              <h3>Springfest Ticketing</h3>
+              <p>
+                Built a dynamic user interface for a college event ticketing
+                website using JavaScript and MySQL, enabling seamless access to
+                events for a diverse community of over 6,000 students.
+              </p>
+            </div>
+            <footer>
+              <ul className='tech-list'>
                 <li>PHP</li>
                 <li>SQL</li>
                 <li>JavaScript</li>
@@ -57,30 +114,51 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+        <ScrollAnimation animateIn='flipInX'>
+          <div className='project'>
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width='50'
+                xmlns='http://www.w3.org/2000/svg'
+                role='img'
+                viewBox='0 0 24 24'
+                fill='none'
+                stroke='#23ce6b'
+                strokeWidth='1'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+              >
                 <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                <path d='M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z'></path>
               </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+              <div className='project-links'>
+                <a
+                  href='https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis'
+                  target='\_blank'
+                  rel='noreferrer'
+                >
+                  <img src={githubIcon} alt='Visit site' />
                 </a>
-                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                <a
+                  href='https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb'
+                  target='\_blank'
+                  rel='noreferrer'
+                >
+                  <img src={externalLink} alt='Visit site' />
                 </a>
               </div>
             </header>
-            <div className="body">
+            <div className='body'>
               <h3>Industry Connect Platform</h3>
               <p>
-                Engineered a web application using Next.js for frontend and MongoDB, designed to connect students with real-world projects from companies through academic partnership, enriching students’ experience.
+                Engineered a web application using Next.js for frontend and
+                MongoDB, designed to connect students with real-world projects
+                from companies through academic partnership, enriching students’
+                experience.
               </p>
             </div>
             <footer>
-              <ul className="tech-list">
+              <ul className='tech-list'>
                 <li>XGBoost</li>
                 <li>Pandas</li>
                 <li>Matplotlib</li>
@@ -89,25 +167,51 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+        <ScrollAnimation animateIn='flipInX'>
+          <div className='project'>
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+              <svg
+                width='50'
+                xmlns='http://www.w3.org/2000/svg'
+                role='img'
+                viewBox='0 0 24 24'
+                fill='none'
+                stroke='#23ce6b '
+                stroke-width='1'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+              >
+                <title>Folder</title>
+                <path d='M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z'></path>
+              </svg>
+              <div className='project-links'>
+                <a
+                  href='https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={githubIcon} alt='Visit site' />
                 </a>
-                <a href="https://medibook.vinayaksingh.com" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                <a
+                  href='https://medibook.vinayaksingh.com'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={externalLink} alt='Visit site' />
                 </a>
               </div>
             </header>
-            <div className="body">
+            <div className='body'>
               <h3>Boston MBTA Bus Operations Data Analysis</h3>
-              <p>Led a data-driven analysis of MBTA bus operations, servicing over a million people daily, through MBTA API, revealing statistically significant trends that identified disparities by neighborhood and demographics.</p>
+              <p>
+                Led a data-driven analysis of MBTA bus operations, servicing
+                over a million people daily, through MBTA API, revealing
+                statistically significant trends that identified disparities by
+                neighborhood and demographics.
+              </p>
             </div>
             <footer>
-              <ul className="tech-list">
+              <ul className='tech-list'>
                 <li>PHP</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -117,28 +221,54 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+        <ScrollAnimation animateIn='flipInX'>
+          <div className='project'>
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width='50'
+                xmlns='http://www.w3.org/2000/svg'
+                role='img'
+                viewBox='0 0 24 24'
+                fill='none'
+                stroke='#23ce6b'
+                strokeWidth='1'
+                strokeLinecap='round'
+                strokeLinejoin='round'
+              >
                 <title>Code</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                <path d='M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z'></path>
               </svg>
-              <div className="project-links">
-                <a href="https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+              <div className='project-links'>
+                <a
+                  href='https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={githubIcon} alt='Visit site' />
                 </a>
-                <a href="https://youtu.be/NOm-3MynPLE" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                <a
+                  href='https://youtu.be/NOm-3MynPLE'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={externalLink} alt='Visit site' />
                 </a>
               </div>
             </header>
-            <div className="body">
-              <h3>Contrastive Representation Learning for Image Attribute Manipulation</h3>
-              <p>Incorporated contrastive learning into the GAN-based face image attribute manipulation using three different variants of GAN models, AttGA, StarGAN, and StyleGAN2 and trained them on the CelebA dataset.</p>
+            <div className='body'>
+              <h3>
+                Contrastive Representation Learning for Image Attribute
+                Manipulation
+              </h3>
+              <p>
+                Incorporated contrastive learning into the GAN-based face image
+                attribute manipulation using three different variants of GAN
+                models, AttGA, StarGAN, and StyleGAN2 and trained them on the
+                CelebA dataset.
+              </p>
             </div>
             <footer>
-              <ul className="tech-list">
+              <ul className='tech-list'>
                 <li>OpenCV</li>
                 <li>PyTorch</li>
                 <li>Jax</li>
@@ -148,24 +278,43 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
+        <ScrollAnimation animateIn='flipInX'>
+          <div className='project'>
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://velocityai.vinayaksingh.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+              <svg
+                width='50'
+                xmlns='http://www.w3.org/2000/svg'
+                role='img'
+                viewBox='0 0 24 24'
+                fill='none'
+                stroke='#23ce6b '
+                stroke-width='1'
+                stroke-linecap='round'
+                stroke-linejoin='round'
+              >
+                <title>Folder</title>
+                <path d='M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z'></path>
+              </svg>
+              <div className='project-links'>
+                <a
+                  href='https://velocityai.vinayaksingh.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <img src={externalLink} alt='Visit site' />
                 </a>
               </div>
             </header>
-            <div className="body">
+            <div className='body'>
               <h3>Amazon Movie Reviews Score Predictor</h3>
               <p>
-             Developed a predictive model for Amazon movie review scores, leveraging Scikit-learn ridge regression model, sentiment analysis, TFIDF, and user feedback metrics.
+                Developed a predictive model for Amazon movie review scores,
+                leveraging Scikit-learn ridge regression model, sentiment
+                analysis, TFIDF, and user feedback metrics.
               </p>
             </div>
             <footer>
-              <ul className="tech-list">
+              <ul className='tech-list'>
                 <li>scikit-learn</li>
                 <li>pandas</li>
                 <li>NLTK</li>
@@ -295,7 +444,7 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation> */}
-        
+
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -320,7 +469,6 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation> */}
-
       </div>
     </Container>
   );
