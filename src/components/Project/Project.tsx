@@ -28,14 +28,14 @@ export function Project() {
               </svg>
               <div className='project-links'>
                 <a
-                  href='https://github.com/CodeVinayak/Serverless-Voting-Application'
+                  href='https://github.com/nguymi01/workoutgenerator'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <img src={githubIcon} alt='Visit site' />
                 </a>
                 <a
-                  href='https://vote.vinayaksingh.com'
+                  href='https://workoutgenerator-nu.vercel.app/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -81,14 +81,14 @@ export function Project() {
               </svg>
               <div className='project-links'>
                 <a
-                  href='https://github.com/CodeVinayak/AI-Chatbot-Assistant'
+                  href='https://github.com/nguymi01?page=1&tab=repositories'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <img src={githubIcon} alt='Visit site' />{' '}
                 </a>
                 <a
-                  href='https://ai-chatbot-t8fn.onrender.com'
+                  href='http://cs.gettysburg.edu/~nguymi01/cs360/Project/#news'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -133,14 +133,14 @@ export function Project() {
               </svg>
               <div className='project-links'>
                 <a
-                  href='https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis'
+                  href='https://github.com/minh-le-q/dev-week-hackathon'
                   target='\_blank'
                   rel='noreferrer'
                 >
                   <img src={githubIcon} alt='Visit site' />
                 </a>
                 <a
-                  href='https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb'
+                  href='https://github.com/minh-le-q/dev-week-hackathon'
                   target='\_blank'
                   rel='noreferrer'
                 >
@@ -186,14 +186,14 @@ export function Project() {
               </svg>
               <div className='project-links'>
                 <a
-                  href='https://github.com/CodeVinayak/MediBook-Medical-Appointment-Scheduler-with-Health-History'
+                  href='https://github.com/nguymi01/BostonMBTBusPerformance'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <img src={githubIcon} alt='Visit site' />
                 </a>
                 <a
-                  href='https://medibook.vinayaksingh.com'
+                  href='https://github.com/nguymi01/BostonMBTBusPerformance'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -240,14 +240,14 @@ export function Project() {
               </svg>
               <div className='project-links'>
                 <a
-                  href='https://github.com/CodeVinayak/Real-Time-Hand-Gesture-Driven-3D-Object-Manipulation'
+                  href='https://github.com/nguymi01/ContrasitveLearningGAN'
                   target='_blank'
                   rel='noreferrer'
                 >
                   <img src={githubIcon} alt='Visit site' />
                 </a>
                 <a
-                  href='https://youtu.be/NOm-3MynPLE'
+                  href='https://github.com/nguymi01/ContrasitveLearningGAN'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -297,7 +297,7 @@ export function Project() {
               </svg>
               <div className='project-links'>
                 <a
-                  href='https://velocityai.vinayaksingh.com/'
+                  href='https://github.com/nguymi01/AmazonReviewsClassifier'
                   target='_blank'
                   rel='noreferrer'
                 >
